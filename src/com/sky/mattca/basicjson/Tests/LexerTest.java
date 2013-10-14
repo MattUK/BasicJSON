@@ -19,6 +19,7 @@ public class LexerTest {
     public void testStart() throws Exception {
         Lexer lexer = new Lexer();
         String[] testStrings = ("{\n" +
+                "    \"pooper\": null,\n" +
                 "    \"firstName\": \"John\",\n" +
                 "    \"lastName\": \"Smith\",\n" +
                 "    \"age\": 25,\n" +

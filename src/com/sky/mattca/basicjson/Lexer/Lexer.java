@@ -78,6 +78,31 @@ public class Lexer {
     }
 
     /**
+     * Tokenizes an identifier string into a token.
+     * @return The new identifier token.
+     */
+    private Token tokenizeIdentifier() {
+        String identifierLine = source.get(currentLine);
+        int identifierLength = 0;
+        do {
+            identifierLength ++;
+        } while (identifierLine.length() > identifierLength && isIdentifierCharacter(identifierLine.charAt(identifierLength)));
+
+        String identifierValue = identifierLine.substring(0, identifierLength);
+        if (identifierValue.equals("true")) {
+            return new Token(TokenType.TRUE, "true", currentLine, currentPosition);
+        } else if (identifierValue.equals("false")) {
+            return new Token(TokenType.FALSE, "false", currentLine, currentPosition);
+        } else if (identifierValue.equals("null")) {
+            return new Token(TokenType.NULL, "null", currentLine, currentPosition);
+        }
+
+        Handler.reportError(new Handler.BuildError(7, currentLine, currentPosition, identifierValue));
+
+        return new Token();
+    }
+
+    /**
      * Tokenizes a string literal into a token.
      *
      * @return The new string literal token.
@@ -174,6 +199,8 @@ public class Lexer {
             if (!matched) {
                 if (Character.isDigit(source.get(currentLine).charAt(0))) {
                     tokenString.append(tokenizeNumericalLiteral());
+                } else if (isIdentifierCharacter(source.get(currentLine).charAt(0))) {
+                    tokenString.append(tokenizeIdentifier());
                 } else if (source.get(currentLine).charAt(0) == '"') {
                     tokenString.append(tokenizeStringLiteral());
                 } else if (Character.isWhitespace(source.get(currentLine).charAt(0))) {

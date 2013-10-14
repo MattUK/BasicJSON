@@ -26,7 +26,9 @@
 package com.sky.mattca.basicjson.Parser;
 
 import com.sky.mattca.basicjson.JSONElement;
+import com.sky.mattca.basicjson.JSONObject;
 import com.sky.mattca.basicjson.Lexer.TokenString;
+import com.sky.mattca.basicjson.Lexer.TokenType;
 
 public class Parser {
 
@@ -36,15 +38,33 @@ public class Parser {
 
     }
 
-    private JSONElement parseValue(JSONElement parent) {
+    private Object parseValue() {
+        switch (tokenStream.peek().type) {
+            case STRING_LITERAL:
+                if (tokenStream.match(TokenType.STRING_LITERAL)) {
+                    return tokenStream.consume().contents;
+                }
+            case INTEGER_LITERAL:
+                break;
+            case FLOAT_LITERAL:
+                break;
+            case TRUE:
+                break;
+            case FALSE:
+                break;
+            case NULL:
+                break;
+            default:
+                break;
+        }
         return null;
     }
 
-    private JSONElement parseArray(JSONElement parent) {
+    private JSONElement parseArray(JSONObject parent) {
         return null;
     }
 
-    private JSONElement parseObject(JSONElement parent) {
+    private JSONElement parseObject(JSONObject parent) {
         return null;
     }
 
