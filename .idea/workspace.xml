@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09ee4252-28c2-4f74-862d-9e06d49dab95" name="Default" comment="" />
+    <list default="true" id="09ee4252-28c2-4f74-862d-9e06d49dab95" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sky/mattca/basicjson/Handler.java" afterPath="$PROJECT_DIR$/src/com/sky/mattca/basicjson/Handler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sky/mattca/basicjson/Parser/Parser.java" afterPath="$PROJECT_DIR$/src/com/sky/mattca/basicjson/Parser/Parser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="BasicJSON.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Lexer.java" changelist="09ee4252-28c2-4f74-862d-9e06d49dab95" time="1381745853520" ignored="false" />
@@ -10,9 +16,10 @@
     <file path="$PROJECT_DIR$/src/com/sky/mattca/basicjson/Tests/LexerTest.groovy" changelist="09ee4252-28c2-4f74-862d-9e06d49dab95" time="1381686211403" ignored="false" />
     <file path="/LexerTest.java" changelist="09ee4252-28c2-4f74-862d-9e06d49dab95" time="1381746320275" ignored="false" />
     <file path="/TokenString.java" changelist="09ee4252-28c2-4f74-862d-9e06d49dab95" time="1381691640766" ignored="false" />
-    <file path="/Parser.java" changelist="09ee4252-28c2-4f74-862d-9e06d49dab95" time="1381747181547" ignored="false" />
+    <file path="/Parser.java" changelist="09ee4252-28c2-4f74-862d-9e06d49dab95" time="1382209809462" ignored="false" />
     <file path="/JSONElement.java" changelist="09ee4252-28c2-4f74-862d-9e06d49dab95" time="1381709871929" ignored="false" />
     <file path="/JSONObject.java" changelist="09ee4252-28c2-4f74-862d-9e06d49dab95" time="1381711120744" ignored="false" />
+    <file path="/Dummy.txt" changelist="09ee4252-28c2-4f74-862d-9e06d49dab95" time="1382354714736" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,11 +100,19 @@
       <file leaf-file-name="Parser.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/sky/mattca/basicjson/Parser/Parser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="57" selection-start="1718" selection-end="1718" vertical-scroll-proportion="0.30163446">
+            <state line="46" column="33" selection-start="1768" selection-end="1768" vertical-scroll-proportion="0.38514286">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicJSON.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sky/mattca/basicjson/BasicJSON.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="13" selection-start="1209" selection-end="1209" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -114,7 +129,7 @@
       <file leaf-file-name="Lexer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sky/mattca/basicjson/Lexer/Lexer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="213" column="0" selection-start="7884" selection-end="7884" vertical-scroll-proportion="0.0">
+            <state line="240" column="0" selection-start="8515" selection-end="8515" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -123,7 +138,7 @@
       <file leaf-file-name="LexerTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sky/mattca/basicjson/Tests/LexerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="43" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0">
+            <state line="23" column="43" selection-start="656" selection-end="656" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -132,7 +147,7 @@
       <file leaf-file-name="Handler.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sky/mattca/basicjson/Handler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="58" selection-start="2253" selection-end="2253" vertical-scroll-proportion="0.0">
+            <state line="31" column="0" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -154,6 +169,14 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -164,17 +187,18 @@
         <option value="$PROJECT_DIR$/src/com/sky/mattca/basicjson/BasicJSON.java" />
         <option value="$PROJECT_DIR$/src/com/sky/mattca/basicjson/JSONElement.java" />
         <option value="$PROJECT_DIR$/src/com/sky/mattca/basicjson/JSONObject.java" />
-        <option value="$PROJECT_DIR$/src/com/sky/mattca/basicjson/Handler.java" />
         <option value="$PROJECT_DIR$/src/com/sky/mattca/basicjson/Lexer/Lexer.java" />
         <option value="$PROJECT_DIR$/src/com/sky/mattca/basicjson/Tests/LexerTest.java" />
+        <option value="$PROJECT_DIR$/src/com/sky/mattca/basicjson/Handler.java" />
         <option value="$PROJECT_DIR$/src/com/sky/mattca/basicjson/Parser/Parser.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="1440" />
-    <option name="height" value="821" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -225,7 +249,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -253,6 +277,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -358,7 +383,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -369,19 +393,19 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="project.propCompiler" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -445,6 +469,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -471,19 +508,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -548,6 +572,23 @@
     </option>
     <option name="fileTypes" value="class;svn-base;svn-work;Extra;gif;png;jpg;jpeg;bmp;tga;tiff;ear;war;zip;jar;iml;iws;ipr;bz2;gz;" />
   </component>
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="09ee4252-28c2-4f74-862d-9e06d49dab95" name="Default" comment="" />
@@ -557,16 +598,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="821" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933258" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Kotlin" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -578,15 +621,13 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.6718973" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3281027" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24919957" sideWeight="0.67296994" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32703003" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.6006674" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952926" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Kotlin" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -656,6 +697,34 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/sky/mattca/basicjson/Lexer/Lexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="213" column="0" selection-start="7313" selection-end="7313" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sky/mattca/basicjson/Tests/LexerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="43" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sky/mattca/basicjson/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="6" selection-start="2200" selection-end="2200" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sky/mattca/basicjson/JSONElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="23" selection-start="2919" selection-end="2919" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sky/mattca/basicjson/JSONObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -667,15 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="0" selection-start="2078" selection-end="2078" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sky/mattca/basicjson/BasicJSON.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="3" selection-start="1159" selection-end="1159" vertical-scroll-proportion="0.677643">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -700,16 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sky/mattca/basicjson/Parser/Parser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="57" selection-start="1718" selection-end="1718" vertical-scroll-proportion="0.30163446">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sky/mattca/basicjson/Lexer/TokenType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="7" selection-start="1438" selection-end="1438" vertical-scroll-proportion="0.0">
@@ -719,21 +769,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sky/mattca/basicjson/Lexer/Lexer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="213" column="0" selection-start="7884" selection-end="7884" vertical-scroll-proportion="0.0">
+        <state line="240" column="0" selection-start="8515" selection-end="8515" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sky/mattca/basicjson/Tests/LexerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="43" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0">
+        <state line="23" column="43" selection-start="656" selection-end="656" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sky/mattca/basicjson/Handler.java">
+    <entry file="file://$PROJECT_DIR$/src/com/sky/mattca/basicjson/BasicJSON.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="58" selection-start="2253" selection-end="2253" vertical-scroll-proportion="0.0">
+        <state line="27" column="13" selection-start="1209" selection-end="1209" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -742,6 +792,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="93" column="23" selection-start="2919" selection-end="2919" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sky/mattca/basicjson/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sky/mattca/basicjson/Parser/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="33" selection-start="1768" selection-end="1768" vertical-scroll-proportion="0.38514286">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

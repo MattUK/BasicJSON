@@ -25,8 +25,10 @@
 
 package com.sky.mattca.basicjson.Parser;
 
+import com.sky.mattca.basicjson.Handler;
 import com.sky.mattca.basicjson.JSONElement;
 import com.sky.mattca.basicjson.JSONObject;
+import com.sky.mattca.basicjson.Lexer.Token;
 import com.sky.mattca.basicjson.Lexer.TokenString;
 import com.sky.mattca.basicjson.Lexer.TokenType;
 
@@ -41,20 +43,20 @@ public class Parser {
     private Object parseValue() {
         switch (tokenStream.peek().type) {
             case STRING_LITERAL:
-                if (tokenStream.match(TokenType.STRING_LITERAL)) {
-                    return tokenStream.consume().contents;
-                }
+                return tokenStream.consume().contents;
             case INTEGER_LITERAL:
-                break;
+                return Integer.valueOf(tokenStream.consume().contents);
             case FLOAT_LITERAL:
-                break;
+                return Float.valueOf(tokenStream.consume().contents);
             case TRUE:
-                break;
+                return true;
             case FALSE:
-                break;
+                return false;
             case NULL:
-                break;
+                return null;
             default:
+                Token t = tokenStream.consume();
+                Handler.reportError(new Handler.BuildError(8, t.line, t.position, t.type.toString()));
                 break;
         }
         return null;

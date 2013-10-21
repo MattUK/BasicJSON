@@ -56,7 +56,8 @@ public class Handler {
             "Expected digit to follow decimal point",
             "Incorrect usage of '=', use ':' for assignment",
             "Expected identifier",
-            "Expected 'true', 'false', or 'null', found %s"
+            "Expected 'true', 'false', or 'null', found %s",
+            "Expected JSON value, found %s"
     };
 
     private static List<BuildError> errors = new ArrayList<>();
